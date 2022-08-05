@@ -91,6 +91,8 @@ public:
 		void GetManaValues(float& Mana, float& MaxMana);
 	UFUNCTION(BlueprintPure, Category = "BaseCharacter")
 		void GetStaminaValues(float& Stamina, float& MaxStamina);
+	UFUNCTION(BlueprintPure, Category = "BaseCharacter")
+		void GetShieldValues(float& Shield, float& MaxShield);
 
 	void OnHealthChagedNative(const FOnAttributeChangeData& Data);
 	void OnManaChagedNative(const FOnAttributeChangeData& Data);
